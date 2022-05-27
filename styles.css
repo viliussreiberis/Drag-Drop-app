@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.container {
+  background-color: #34aeeb;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
+
+.logo {
+  margin-left: 3rem;
+  width: 30px;
+  height: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
